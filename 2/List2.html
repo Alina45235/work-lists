@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-header">
+            <h1>My To Do List</h1>
+            <p>Организуйте свои задачи эффективно</p>
+        </div>
+        
+        <table class="todo-table">
+            <!-- Строка 1 - нечетная - СВЕТЛО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task1">
+                    <label for="task1" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Hit the gym</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 2 - четная - ТЕМНО-ГОЛУБОЙ -->
+            <tr class="completed">
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task2" checked>
+                    <label for="task2" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Pay bills</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 3 - нечетная - СВЕТЛО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task3">
+                    <label for="task3" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Meet John</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 4 - четная - ТЕМНО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task4">
+                    <label for="task4" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Buy eggs</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 5 - нечетная - СВЕТЛО-ГОЛУБОЙ -->
+            <tr class="completed">
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task5" checked>
+                    <label for="task5" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Read a book</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 6 - четная - ТЕМНО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task6">
+                    <label for="task6" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Organize office</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 7 - нечетная - СВЕТЛО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task7">
+                    <label for="task7" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Eat dinner</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 8 - четная - ТЕМНО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task8">
+                    <label for="task8" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Buy apples</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 9 - нечетная - СВЕТЛО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task9">
+                    <label for="task9" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Meet George</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 10 - четная - ТЕМНО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task10">
+                    <label for="task10" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Feed the cat</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 11 - нечетная - СВЕТЛО-ГОЛУБОЙ -->
+            <tr class="completed">
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task11" checked>
+                    <label for="task11" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Write a letter</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+            <!-- Строка 12 - четная - ТЕМНО-ГОЛУБОЙ -->
+            <tr>
+                <td>
+                    <input type="checkbox" class="todo-checkbox" id="task12">
+                    <label for="task12" class="custom-checkbox"></label>
+                </td>
+                <td>
+                    <span class="task-text">Run 1 km</span>
+                </td>
+                <td>
+                    <span class="delete-btn">✕</span>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="todo-stats">
+            <div class="stats-item">
+                <i class="stats-icon fas fa-tasks"></i>
+                <span>Всего задач: <strong>12</strong></span>
+            </div>
+            <div class="stats-item">
+                <i class="stats-icon fas fa-check-circle"></i>
+                <span>Выполнено: <strong>3</strong></span>
+            </div>
+            <div class="stats-item">
+                <i class="stats-icon fas fa-clock"></i>
+                <span>В процессе: <strong>9</strong></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
